@@ -33,7 +33,7 @@ function countWords(){
 
 	var words = document.getElementById("theWords").value.trim();
         if(words == ""){
-            return;
+            return false;
         }
 	var space = " ";
 
