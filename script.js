@@ -32,6 +32,9 @@ function countWords(){
 
 
 	var words = document.getElementById("theWords").value.trim();
+        if(words == ""){
+            return;
+        }
 	var space = " ";
 
 	// remove single apostrophes to make a single word
